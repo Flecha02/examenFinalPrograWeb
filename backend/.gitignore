@@ -1,0 +1,29 @@
+# --- VARIABLES DE ENTORNO (¡Lo más importante!) ---
+.env
+*.env
+.env.*
+
+# --- PYTHON / DJANGO (Backend) ---
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.sqlite3-journal
+media/
+staticfiles/
+
+# --- NODE / REACT (Frontend) ---
+node_modules/
+dist/
+build/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- EDITORES Y SISTEMA ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
